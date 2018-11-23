@@ -1,5 +1,7 @@
 import json
 from datetime import datetime
+import matplotlib as mp
+
 
 class Snail:
     def __init__(self):
@@ -19,7 +21,7 @@ class Snail:
     def load_json_pls(self):
         self.sender = input('Enter the name of the person: ')
         path = self.default_path + "/facebook-ngvtcng/messages/inbox/" + self.sender + '/message.json'
-        with open(path) as f:
+        with open(path, 'r') as f:
             self.message_array = json.load(f)
     
     def count_messages_include_old_acc(self):
@@ -35,6 +37,11 @@ class Snail:
                 self.me_count = self.me_count + 1
             else:
                 self.sender_count = self.sender_count + 1
+    
+    def write_csv(self):
+        path = self.default_path + "/messages(" + self.sender + ").csv"
+        with open(path, 'w') as f:
+            f.write("test,the,csv")
     
     def simple_count_results(self):
         print('\nYour number of messages sent: ' + str(self.me_count))
