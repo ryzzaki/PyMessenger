@@ -7,6 +7,7 @@ class Snail:
         self.message_array = []
         self.me_count = 0
         self.sender_count = 0
+        self.default_path = "C:/Users/Cuong Nguyen/Documents/Facebook Messages"
         self.clean_messages =[
                 {
                     "sender": "",
@@ -17,7 +18,7 @@ class Snail:
 
     def load_json_pls(self):
         self.sender = input('Enter the name of the person: ')
-        path = "facebook-ngvtcng/messages/inbox/" + self.sender + '/message.json'
+        path = self.default_path + "/facebook-ngvtcng/messages/inbox/" + self.sender + '/message.json'
         with open(path) as f:
             self.message_array = json.load(f)
     
