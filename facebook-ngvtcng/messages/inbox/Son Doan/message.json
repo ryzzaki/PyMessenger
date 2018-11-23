@@ -1,0 +1,76 @@
+{
+  "participants": [
+    {
+      "name": "Son Doan"
+    },
+    {
+      "name": "Cuong Nguyen"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542405094482,
+      "content": "tak ti toho naskoci hodne, jeste to vydefinuju ale it could be something like that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542405059150,
+      "content": "btw, pokud si vygooglujes Visa Services",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542405014702,
+      "content": "tohle bylo poprve co jsme se dostali k tomu actual selling of the email",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542404996949,
+      "content": "Alright :D my se vzdycky posuneme jen ten 1 step dopredu ...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Son Doan",
+      "timestamp_ms": 1542404938113,
+      "content": "Musite se kouknout na celej ten proces a zanalyzovat where it might go wrong or possible challenges like these ones.. \nDrahy se ucit takhle kazdej mesic..\nYou guys gotta be able to anticipate all the things that could go wrong..\nNevadi ale :D aspon nemate zadnej lost (except 1K Kc za server) \nPokecame o tom pristi tyden",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542390973124,
+      "content": "Should have asked for a deposit...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542390949500,
+      "content": "Ty vole, 6k lost from this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542390926883,
+      "content": "You sent a photo.",
+      "photos": [
+        {
+          "uri": "messages/inbox/SonDoan_54504089b1/photos/46508471_345003859608424_2778227023078752256_n_345003846275092.jpg",
+          "creation_timestamp": 1542390925
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1542388998171,
+      "content": "Say hi to your new Facebook friend, Son.",
+      "type": "Generic"
+    }
+  ],
+  "title": "Son Doan",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/SonDoan_54504089b1"
+}

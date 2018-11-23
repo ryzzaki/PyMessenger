@@ -1,0 +1,31 @@
+{
+  "participants": [
+    {
+      "name": "Cuong Nguyen"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1520805033292,
+      "content": "You waved at Cuong!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1514769186592,
+      "content": "You waved at Cuong!",
+      "type": "Share"
+    },
+    {
+      "sender_name": "Cuong Nguyen",
+      "timestamp_ms": 1483464545389,
+      "content": ":)",
+      "type": "Generic"
+    }
+  ],
+  "title": "Cuong Nguyen",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/CuongNguyen_206639e774"
+}
