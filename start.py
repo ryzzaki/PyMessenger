@@ -57,7 +57,7 @@ if __name__ == "__main__":
     sn = Snail()
     sn.load_json_pls()
     # sn.test_read_json()
-    # sn.test_data_grab() # test commit
+    # sn.test_data_grab()
+    # sn.test_convert_time()
     sn.count_messages()
     sn.simple_count_results()
-    sn.test_convert_time()
